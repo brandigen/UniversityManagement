@@ -7,9 +7,8 @@ using namespace std;
 
 int main()
 {
-    Person john("John Burke", 25.0);
+    Person john("John Smith", 25.0);
 
-  // Print out name and pay (based on 40 hours work).
     cout << "Name: " << john.getName() << endl;
     cout << "Age: " << john.getAge() << endl;
 
